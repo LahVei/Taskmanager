@@ -1,0 +1,17 @@
+POST http://localhost:3001/api/cars
+Content-Type: application/json
+
+{
+        "name": "Toyota Hilux",
+        "number": "JMC0000002",
+        "progress":false,
+        "aloitus":false,
+        "keskeyta":false,
+        "aika":"",
+        "delDate": "01.06.2024",
+        "checkboxes": {
+          "vip": true,
+          "accessories": false,
+          "location": false
+        }
+}
