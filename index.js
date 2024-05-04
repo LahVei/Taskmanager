@@ -2,7 +2,11 @@ const express = require('express')
 const app = express()
 app.use(express.json()) //Tapahtumankäsittelijäfunktio pääsee dataan käsiksi olion request kentän body avulla
 const cors = require('cors');
-app.use(cors())
+app.use(cors());
+// Expressin näyttää staattista sisältöä eli sivun index.html ja sen lataaman JavaScriptin ym.
+//tarkastaa Express GET-tyyppisten HTTP-pyyntöjen yhteydessä ensin löytyykö pyynnön polkua vastaavan 
+//nimistä tiedostoa hakemistosta dist. Jos löytyy, palauttaa Express tiedoston 
+app.use(express.static('dist'));
 let cars = [
  
       {
