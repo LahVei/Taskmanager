@@ -9,21 +9,156 @@ app.use(cors());
 app.use(express.static('dist'));
 let cars = [
  
-      {
-        "id": 10,
-        "name": "Toyota Hilux",
-        "number": "JMC0000010",
-        "progress":false,
-        "aloitus":false,
-        "keskeyta":false,
-        "aika":" ",
-        "delDate": "06.05.2024",
-        "checkboxes": {
-          "vip": false,
-          "accessories": false,
-          "location": false
-        }
-      }   
+  {
+    "id": 1,
+    "name": "Toyota Hilux",
+    "number": "JMC0000001",
+    "progress":false,
+    "aloitus":false,
+    "keskeyta":false,
+    "aika":" ",
+    "delDate": "13.04.2024",
+    "checkboxes": {
+      "vip": false,
+      "accessories": false,
+      "location": false
+    }
+  },
+  {
+    "id": 2,
+    "name": "Toyota Hilux",
+    "number": "JMC0000002",
+    "progress":false,
+    "aloitus":false,
+    "keskeyta":false,
+    "aika":" ",
+    "delDate": "13.05.2024",
+    "checkboxes": {
+      "vip": false,
+      "accessories": false,
+      "location": false
+    }
+  },
+  {
+    "id": 3,
+    "name": "Toyota Hilux",
+    "number": "JMC0000003",
+    "progress":false,
+    "aloitus":false,
+    "keskeyta":false,
+    "aika":" ",
+    "delDate": "13.05.2024",
+    "checkboxes": {
+      "vip": false,
+      "accessories": false,
+      "location": false
+    }
+  },
+  {
+    "id": 4,
+    "name": "Toyota Hilux",
+    "number": "JMC0000004",
+    "progress":false,
+    "aloitus":false,
+    "keskeyta":false,
+    "aika":" ",
+    "delDate": "13.05.2024",
+    "checkboxes": {
+      "vip": false,
+      "accessories": false,
+      "location": false
+    }
+  },
+  {
+    "id": 5,
+    "name": "Toyota Hilux",
+    "number": "JMC0000005",
+    "progress":false,
+    "aloitus":false,
+    "keskeyta":false,
+    "aika":" ",
+    "delDate": "13.05.2024",
+    "checkboxes": {
+      "vip": false,
+      "accessories": false,
+      "location": false
+    }
+  },
+  {
+    "id": 6,
+    "name": "Toyota Hilux",
+    "number": "JMC0000006",
+    "progress":false,
+    "aloitus":false,
+    "keskeyta":false,
+    "aika":" ",
+    "delDate": "13.05.2024",
+    "checkboxes": {
+      "vip": false,
+      "accessories": false,
+      "location": false
+    }
+  },
+  {
+    "id": 7,
+    "name": "Toyota Hilux",
+    "number": "JMC0000007",
+    "progress":false,
+    "aloitus":false,
+    "keskeyta":false,
+    "aika":" ",
+    "delDate": "13.05.2024",
+    "checkboxes": {
+      "vip": false,
+      "accessories": false,
+      "location": false
+    }
+  },
+  {
+    "id": 8,
+    "name": "Toyota Hilux",
+    "number": "JMC0000008",
+    "progress":false,
+    "aloitus":false,
+    "keskeyta":false,
+    "aika":" ",
+    "delDate": "17.05.2024",
+    "checkboxes": {
+      "vip": false,
+      "accessories": false,
+      "location": false
+    }
+  },
+  {
+    "id": 9,
+    "name": "Toyota Hilux",
+    "number": "JMC0000009",
+    "progress":false,
+    "aloitus":false,
+    "keskeyta":false,
+    "aika":" ",
+    "delDate": "21.05.2024",
+    "checkboxes": {
+      "vip": false,
+      "accessories": false,
+      "location": false
+    }
+  },
+  {
+    "id": 10,
+    "name": "Toyota Hilux",
+    "number": "JMC0000010",
+    "progress":false,
+    "aloitus":false,
+    "keskeyta":false,
+    "aika":" ",
+    "delDate": "06.05.2024",
+    "checkboxes": {
+      "vip": false,
+      "accessories": false,
+      "location": false
+    }
+  }
 ]
 
 app.get('/', (request, response) => {
@@ -31,6 +166,7 @@ app.get('/', (request, response) => {
 })
 
 app.get('/api/cars', (request, response) => {
+  {console.log("haku pyyntö")}
   response.json(cars)
 })
 app.get('/api/cars/:id', (request, response) => {
