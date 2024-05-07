@@ -17,7 +17,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "08.05.2024",
+    "delDate": "07.05.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -47,7 +47,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "27.05.2024",
+    "delDate": "08.05.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
