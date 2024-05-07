@@ -17,7 +17,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "13.04.2024",
+    "delDate": "08.05.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -32,7 +32,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "13.05.2024",
+    "delDate": "19.05.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -47,7 +47,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "13.05.2024",
+    "delDate": "27.05.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -77,7 +77,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "13.05.2024",
+    "delDate": "19.05.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -92,7 +92,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "13.05.2024",
+    "delDate": "11.05.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -107,7 +107,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "13.05.2024",
+    "delDate": "23.05.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -152,7 +152,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "06.05.2024",
+    "delDate": "09.05.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
