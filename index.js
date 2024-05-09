@@ -65,7 +65,7 @@ let cars = [
     "delDate": "13.05.2024",
     "checkboxes": {
       "vip": false,
-      "accessories": false,
+      "accessories": true,
       "location": false
     }
   },
@@ -110,7 +110,7 @@ let cars = [
     "delDate": "23.05.2024",
     "checkboxes": {
       "vip": false,
-      "accessories": false,
+      "accessories": true,
       "location": false
     }
   },
@@ -141,7 +141,7 @@ let cars = [
     "checkboxes": {
       "vip": false,
       "accessories": false,
-      "location": false
+      "location": true
     }
   },
   {
