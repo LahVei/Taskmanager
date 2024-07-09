@@ -17,7 +17,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "07.06.2024",
+    "delDate": "07.08.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -32,7 +32,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "19.06.2024",
+    "delDate": "19.08.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -47,7 +47,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "03.06.2024",
+    "delDate": "03.08.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -62,7 +62,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "13.05.2024",
+    "delDate": "13.08.2024",
     "checkboxes": {
       "vip": false,
       "accessories": true,
@@ -77,7 +77,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "04.06.2024",
+    "delDate": "10.07.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -92,7 +92,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "11.06.2024",
+    "delDate": "02.07.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -107,7 +107,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "23.06.2024",
+    "delDate": "23.08.2024",
     "checkboxes": {
       "vip": false,
       "accessories": true,
@@ -122,7 +122,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "28.05.2024",
+    "delDate": "28.08.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -137,7 +137,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "21.06.2024",
+    "delDate": "21.08.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
@@ -152,7 +152,7 @@ let cars = [
     "aloitus":false,
     "keskeyta":false,
     "aika":" ",
-    "delDate": "25.06.2024",
+    "delDate": "25.07.2024",
     "checkboxes": {
       "vip": false,
       "accessories": false,
